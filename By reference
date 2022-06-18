@@ -1,0 +1,17 @@
+public class reference {
+    int id;
+    String name;
+}
+
+class r1
+{
+    public static void main(String args[])
+    {
+        reference s=new  reference();
+        s.id=101;
+        s.name="Ayushi";
+        System.out.println("id :" +s.id);
+        System.out.println("name :" +s.name);
+    }
+}
+
