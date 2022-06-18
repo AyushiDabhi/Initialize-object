@@ -1,0 +1,25 @@
+public class by_method {
+ int r_no;
+ String name;
+ void getdata(int r,String n)
+ {
+     r_no=r;
+     name=n;
+ }
+ void putdata()
+ {
+     System.out.println(r_no+"\t"+name);
+ }
+}
+class m1
+{
+    public static void main(String args[]){
+        by_method s=new by_method();
+        by_method s1=new by_method();
+        s.getdata(11,"Ayushi");
+        s1.getdata(12, "Dabhi");
+        s.putdata();
+        s1.putdata();
+    }
+            
+}
